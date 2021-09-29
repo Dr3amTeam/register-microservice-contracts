@@ -11,6 +11,7 @@ public class UserEdited {
     private String LastName;
     private Long Age;
     private Long DNI;
+    private String Email;
     private String Password;
     private String Username;
     private String Address;
