@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.dhome</groupId>
     <artifactId>register-microservice</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>register-microservice</name>
     <description>register-microservice</description>
     <properties>

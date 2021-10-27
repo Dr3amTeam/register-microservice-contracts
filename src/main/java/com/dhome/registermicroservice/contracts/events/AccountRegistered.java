@@ -1,7 +1,6 @@
 package com.dhome.registermicroservice.contracts.events;
 
 import lombok.Value;
-import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
 import java.time.Instant;
 
