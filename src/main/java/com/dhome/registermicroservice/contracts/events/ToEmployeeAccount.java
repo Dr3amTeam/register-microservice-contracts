@@ -8,7 +8,7 @@ import java.time.Instant;
 @Value
 public class ToEmployeeAccount {
     private String employeeId;
-    private String transactionId;
+    private String paymentId;
     private BigDecimal amount;
     private Instant occurredOn;
 }
