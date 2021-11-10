@@ -4,6 +4,8 @@ import com.dhome.registermicroservice.contracts.others.Office;
 import lombok.Value;
 import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
+import java.math.BigDecimal;
+
 @Value
 public class RegisterEmployee {
     @TargetAggregateIdentifier
@@ -18,5 +20,7 @@ public class RegisterEmployee {
     private String username;
     private String address;
     private boolean verify;
+    private BigDecimal balance;
     private Office office;
+
 }
