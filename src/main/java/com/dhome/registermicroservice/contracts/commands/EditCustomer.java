@@ -3,6 +3,8 @@ package com.dhome.registermicroservice.contracts.commands;
 import lombok.Value;
 import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
+import java.math.BigDecimal;
+
 @Value
 public class EditCustomer {
     @TargetAggregateIdentifier
@@ -17,5 +19,5 @@ public class EditCustomer {
     private String username;
     private String address;
     private boolean verify;
-
+    private BigDecimal balance;
 }
