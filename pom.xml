@@ -11,7 +11,7 @@
 
     <groupId>io.github.dr3amteam.dhome</groupId>
     <artifactId>register-microservice-contracts</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>Register Microservice Contracts</name>
     <description>Contracts for a final project</description>
     <url>https://github.com/Dr3amTeam/register-microservice-contracts</url>
